@@ -1,0 +1,5 @@
+#!/bin/bash
+
+curl -k -H 'Content-Type: application/json'\
+  -d '{"username": "davi oliveira", "email": "martinsoliveiradavi83@gmail.com", "password": "1234"}'\
+  https://localhost:3000/auth/register
