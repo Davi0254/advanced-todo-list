@@ -27,3 +27,12 @@ dist-ssr
 .key
 .pem
 .sh
+
+
+certificado.crt
+chave.keykey.pem
+cert.pem
+addtask_post_request.sh
+login_post_request.sh
+put_request.sh
+register_post_request
