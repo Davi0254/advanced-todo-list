@@ -29,11 +29,10 @@ dist-ssr
 *.sh
 
 
-
-addtask_post_request.sh
-login_post_request.sh
-put_request.sh
-cert.pem
-key.pem
-certificado.crt
-chave.key
+/home/davi/advanced-to-do-list/src/server/server-entry-point/addtask_post_request.sh*
+/home/davi/advanced-to-do-list/src/server/server-entry-point/login_post_request.sh*
+/home/davi/advanced-to-do-list/src/server/server-entry-point/put_request.sh*
+/home/davi/advanced-to-do-list/src/server/cert.pem*
+/home/davi/advanced-to-do-list/src/server/key.pem*
+/home/davi/advanced-to-do-list/certificado.crt*
+/home/davi/advanced-to-do-list/chave.key*
