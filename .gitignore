@@ -29,3 +29,11 @@ dist-ssr
 *.sh
 
 
+
+addtask_post_request.sh
+login_post_request.sh
+put_request.sh
+cert.pem
+key.pem
+certificado.crt
+chave.key
