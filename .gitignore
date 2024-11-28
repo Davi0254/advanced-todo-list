@@ -23,16 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 .env
-.crt
-.key
-.pem
-.sh
+*.crt
+*.key
+*.pem
+*.sh
 
 
-certificado.crt
-chave.keykey.pem
-cert.pem
-addtask_post_request.sh
-login_post_request.sh
-put_request.sh
-register_post_request
