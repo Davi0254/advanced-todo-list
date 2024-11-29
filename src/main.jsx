@@ -9,17 +9,17 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
-    path: '/https://davi0254.github.io/advanced-todo-list',
+    path: '/',
     element: <Login />,
     // errorElement: <NotFoundError />, 
   },
   {
-    path: '/https://davi0254.github.io/advanced-todo-list/register',
+    path: '/register',
     element: <RegisterPage />,
     errorElement: <NotFoundError />, 
   },
   {
-    path: '/https://davi0254.github.io/advanced-todo-list/home',
+    path: '/home',
     element: <Homepage />,
     errorElement: <NotFoundError />
   }
