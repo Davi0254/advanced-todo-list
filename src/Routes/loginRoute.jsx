@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
  const loginRoute = () => {
     return (
       <nav style={{ marginTop: '9px' }}>
-        <Link to="/advanced-todo-list">sair</Link>
+        <Link to="/">sair</Link>
       </nav>
     )
 }

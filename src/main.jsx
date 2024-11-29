@@ -1,25 +1,25 @@
 import React from 'react';
 import ReactDOM  from 'react-dom/client';
-import Homepage from "/src/pages/home/homepage.jsx";
-import Login from '/src/pages/login/login.jsx';
-import RegisterPage from '/src/pages/login/registerPage.jsx';
+import Homepage from "./pages/home/homepage.jsx";
+import Login from './pages/login/login.jsx';
+import RegisterPage from './pages/login/registerPage.jsx';
 import ForbiddenError from './Routes/forbiddenError.jsx';
 import NotFoundError from './Routes/notFoundError.jsx';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 const router = createHashRouter([
   {
-    path: '/advanced-todo-list',
+    path: '/',
     element: <Login />,
     errorElement: <NotFoundError />, 
   },
   {
-    path: '/advanced-todo-list/register',
+    path: '/register',
     element: <RegisterPage />,
     errorElement: <NotFoundError />, 
   },
   {
-    path: '/advanced-todo-list/home',
+    path: '/home',
     element: <Homepage />,
     errorElement: <NotFoundError />
   }
