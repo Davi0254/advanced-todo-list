@@ -31,7 +31,7 @@ export default function Login() {
         setMessage(data.message);
         localStorage.setItem("jwt_token", data.token);
         localStorage.setItem("username", user);
-        navigate("/home");
+        navigate("/advanced-todo-list/home");
       } else {
         setMessage(data.error);
       }
