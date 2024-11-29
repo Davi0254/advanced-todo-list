@@ -231,7 +231,7 @@ li {
    justify-content: left;
    cursor: pointer;
    font-family: 'PlaywriteGBS';
-   src: url(assets/PlaywriteGBS-Italic-VariableFont_wght.ttf);
+   src: url(src/assets/PlaywriteGBS-Italic-VariableFont_wght.ttf);
    font-weight: normal;
    font-style: italic;
    width: 380px;
