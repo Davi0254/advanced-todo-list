@@ -12,11 +12,11 @@ const pool = mariadb.createPool(
         user: process.env.MARIADB_USER,
         password: process.env.MARIADB_PASSWORD,
         database: process.env.MARIADB_DATABASE
-})
+    })
 
 const options = {
-    key: fs.readFileSync('../key.pem'),
-    cert: fs.readFileSync('../cert.pem')
+    key: fs.readFileSync('/home/davi/advanced-to-do-list/certs/key.pem'),
+    cert: fs.readFileSync('/home/davi/advanced-to-do-list/certs/cert.pem'),
 };
 
 export { pool, options, JWT_SECRET };
