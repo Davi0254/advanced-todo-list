@@ -5,9 +5,9 @@ import Login from '/src/pages/login/login.jsx';
 import RegisterPage from '/src/pages/login/registerPage.jsx';
 import ForbiddenError from './Routes/forbiddenError.jsx';
 import NotFoundError from './Routes/notFoundError.jsx';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/advanced-todo-list',
     element: <Login />,
