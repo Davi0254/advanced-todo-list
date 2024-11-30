@@ -7,7 +7,7 @@ import path from 'path';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],   
-  // base: '/advanced-to-do-list',
+  base: '/advanced-to-do-list',
   server: {
     base: '/advanced-todo-list',
     https: {
