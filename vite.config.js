@@ -7,9 +7,8 @@ import path from 'path';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],   
-  base: '/advanced-to-do-list',
+  base: '/advanced-todo-list',
   server: {
-    base: '/advanced-todo-list',
     https: {
       key: fs.readFileSync(path.resolve(__dirname, './certs/key.pem')),
       cert: fs.readFileSync(path.resolve(__dirname, './certs/cert.pem')),
