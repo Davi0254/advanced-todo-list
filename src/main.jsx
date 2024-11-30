@@ -3,8 +3,8 @@ import ReactDOM  from 'react-dom/client';
 import Homepage from "./pages/home/homepage.jsx";
 import Login from './pages/login/login.jsx';
 import RegisterPage from './pages/login/registerPage.jsx';
-import ForbiddenError from './Routes/forbiddenError.jsx';
-import NotFoundError from './Routes/notFoundError.jsx';
+import ForbiddenError from './Routes/links/forbiddenError.jsx';
+import NotFoundError from './Routes/links/notFoundError.jsx';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 const router = createHashRouter([

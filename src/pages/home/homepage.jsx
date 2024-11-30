@@ -1,8 +1,9 @@
 import "/src/index.css";
 import ListComponent from "/src/components/list/list.jsx";
 import React, { useEffect, useState } from "react";
-import LoginRoute from "/src/Routes/loginRoute.jsx";
+import LoginRoute from "../../Routes/links/loginRoute.jsx";
 import "./home.css";
+import notepadIcon from '../../../src/assets/notepad-svgrepo-com.svg';
 
 export default function Home() {
   const [tasks, setTasks] = useState([]);
@@ -107,7 +108,7 @@ export default function Home() {
           Lista-de-tarefas
           <br />
           avançada
-          <img src="src/assets/notepad-svgrepo-com(1).svg" alt="Notepad Icon" />
+          <img src={notepadIcon} alt="Notepad Icon" />
         </h1>
         <LoginRoute />
       </div>

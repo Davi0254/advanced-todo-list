@@ -1,4 +1,4 @@
-import RegisterRoute from "/src/Routes/registerRoute";
+import RegisterRoute from "../../../src/Routes/links/registerRoute.jsx";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import '/src/index.css';
@@ -14,8 +14,8 @@ export default function Login() {
     setShowPassword((prevShowPassword) => !prevShowPassword);
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async () => {
+    // e.preventDefault();
 
     try {
       const response = await fetch('https://localhost:3000/auth/login', {
@@ -31,7 +31,7 @@ export default function Login() {
         setMessage(data.message);
         localStorage.setItem("jwt_token", data.token);
         localStorage.setItem("username", user);
-        navigate("/advanced-todo-list/home");
+        navigate("/home");
       } else {
         setMessage(data.error);
       }
