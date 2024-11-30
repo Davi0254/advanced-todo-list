@@ -2,6 +2,7 @@ import RegisterRoute from "../../../src/Routes/links/registerRoute.jsx";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import '/src/index.css';
+import React from "react";
 
 export default function Login() {
   const [user, setUser] = useState("");
@@ -14,8 +15,8 @@ export default function Login() {
     setShowPassword((prevShowPassword) => !prevShowPassword);
   };
 
-  const handleSubmit = async () => {
-    // e.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
 
     try {
       const response = await fetch('https://localhost:3000/auth/login', {
