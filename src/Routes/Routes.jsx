@@ -3,7 +3,7 @@ import Homepage from '../pages/home/homepage.jsx'
 
 const App = () => {
   return (
-    <HashRouter basename="/advanced-todo-list">
+    <HashRouter >
       <Routes>
         <Route path='/' element={<Login />} />
         <Route path="/register" element={<RegisterPage />} />
